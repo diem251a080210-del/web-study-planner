@@ -1,0 +1,25 @@
+<!doctype html>
+<html lang="vi">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kế hoạch học tập</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js" defer></script>
+</head>
+<body>
+  <main>
+    <h1>Kế hoạch học tập</h1>
+    <p>Ghi lại các việc cần làm trong tuần.</p>
+    <form id="task-form">
+      <label for="task-input">Việc cần làm</label>
+      <div class="row">
+        <input id="task-input" maxlength="120" required placeholder="Ví dụ: Ôn chương 2">
+        <button type="submit">Thêm</button>
+      </div>
+    </form>
+    <p id="count" aria-live="polite"></p>
+    <ul id="tasks"></ul>
+  </main>
+</body>
+</html>
